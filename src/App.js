@@ -12,7 +12,7 @@ function App() {
         <p>
           SKOOMApp deployed on IPFS through Fleek.
         </p>
-       <pre style={{whitespace:'normal'}}>
+       <pre style={{whiteSpace:'normal'}}>
 
 MMMMMMMMMN-/y+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs/--:dMMMMMMMMMM
 MMMMMMMMMM+/h+/hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNy-`-/dNmMMMMMMMMMM
