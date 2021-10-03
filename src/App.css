@@ -14,7 +14,31 @@
 .Big-plus {
   font-size: calc(50px + 2vmin);
 }
+.app-body{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  color:white;
 
+}
+.nav-item{
+  margin:20px;
+  padding:20px;
+  min-width:200px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.active-item{
+  color:#61dafb;
+}
+.nav-item:hover{
+  font-weight: 900;
+}
+.normal{
+  background-color: #282c34;
+  color:white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -38,3 +62,76 @@
     transform: rotate(360deg);
   }
 }
+
+.fadedshort{
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeinDelay {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:0;
+  }
+}
+@-moz-keyframes fadeinDelay { /* Firefox */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:0;
+  }
+}
+@-webkit-keyframes fadeinDelay { /* Safari and Chrome */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:0;
+  }
+}
+@-o-keyframes fadeinDelay { /* Opera */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
