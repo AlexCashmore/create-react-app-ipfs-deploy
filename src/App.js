@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={reactLogo} className="React-logo" alt="react-logo" />
         <p>
-          SKOOMApp deployed on IPFS.
+          SKOOMApp on IPFS.
         </p>
           <body>
 <pre style={{whiteSpace:'normal',width:500}}>
