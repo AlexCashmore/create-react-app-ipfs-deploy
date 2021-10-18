@@ -14,6 +14,21 @@
 .Big-plus {
   font-size: calc(50px + 2vmin);
 }
+.actionButtonNew{
+  padding-right: 25px;
+  min-width:180px;
+  background-color: #4264EA;
+  border-radius: 100px;
+  border:none;
+  padding: 16px;
+  text-align: center;
+  color:#fff;
+  font-size:16px;
+  line-height:20px !important;
+  cursor:pointer;
+  position: relative;
+  height: 52px;
+}
 .app-body{
   background-color: #282c34;
   min-height: 100vh;
@@ -49,7 +64,48 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+html{
+  background-color: #282c34;
+}
+.messagePanelAnswerConversation{
+  background-color: #FAFAFA; border-radius: 12px; padding: 10px;margin-left:25px; color: #505050; max-width: 390px;margin-top:40px;
+}
+.speech-bubble__arrow_left {
+  bottom: -20px;
+  position: absolute;
+  left: 8px;
+}
+.speech-bubble__arrow_left::before {
+  border-right: 23px solid transparent;
+  border-top: 23px solid #fff;
+  bottom: 10px;
+  content: "";
+  position: absolute;
+  right: -15px;
+}
+.speech-bubble__arrow_left::after {
+   border-right: 21px solid transparent;
+   border-top: 21px solid #fff;
+   bottom: 10px;
+   content: "";
+   position: absolute;
+   right: -14px;
+ }
+.speech-bubble-left{
+  margin-top: 60px;
+  background: #fff;
+  border-bottom: 1px solid #d5d7ea;
+  border-radius: 12px;
+  position: relative;
 
+p {
+  margin-bottom: 10px;
+
+:last-of-type {
+  margin-bottom: 0;
+}
+}
+}
 .App-link {
   color: #61dafb;
 }
