@@ -51,13 +51,13 @@ class App extends React.Component {
                     </div>
                     <div style={{display:'flex',justifyContent:'center'}}>
                         <div style={{position:'relative'}}><img style={{position:'absolute',top:190,left:-90}} src={test0} className="React-logo" alt="react-logo"/></div>
-                    <div
+                        {this.state.randomPhrase?<div
                         style={{ marginTop: 15, maxHeight: 370, minHeight: 150,width:'100%',maxWidth:750,minWidth:500 }}
                         className="messagePanelAnswerConversation speech-bubble-left"
                     >
                         <p style={{fontSize:36}} key={this.state.randomPhrase&&this.state.randomPhrase.length} className="fadedshort">{this.state.randomPhrase}</p>
                         <div className="speech-bubble__arrow_left" />
-                    </div>
+                        </div>:<div style={{minWidth:760,fontSize:100, fontWeight:900}}>. . .</div>}
                     </div>
                    {/* <div style={{width: '50%', display: 'flex', justifyContent: 'space-evenly'}}>
                         <div onClick={()=>{this.setState({activeComponent:'CV'})}} className={`nav-item ${this.state.activeComponent==='CV'&&'active-item'}`}>
